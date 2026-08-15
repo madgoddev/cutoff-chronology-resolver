@@ -1,0 +1,45 @@
+{
+  "schema": "cutoffchronologyresolver/deployment-record/v1",
+  "contract": "CutoffChronologyResolver",
+  "network": "Bradbury",
+  "chain_id": 4221,
+  "rpc_host": "rpc-bradbury.genlayer.com",
+  "status": "FINALIZED",
+  "verified_at_utc": "2026-08-12T21:07:10Z",
+  "deployer_address": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contract_address": "0x722247137B7bFBfeEa2c6E4dfF1d449d14CE4e48",
+  "source_sha256": "EF483235B85080B8C6245726053DA9EF89A34230C94A42C3A004EE35CF8DF98F",
+  "source_bytes": 28607,
+  "deployed_source_sha256": "EF483235B85080B8C6245726053DA9EF89A34230C94A42C3A004EE35CF8DF98F",
+  "deployed_source_matches_local": true,
+  "policy_version": 1,
+  "deployment": {
+    "transaction_hash": "0x4e67f6f6f6baade792dcbd22c3e10c90917a7f49cdd1e440a0d8839489801b4d",
+    "finality": "FINALIZED",
+    "consensus": "AGREE",
+    "execution": "FINISHED_WITH_RETURN"
+  },
+  "smoke": {
+    "status": "PASSED",
+    "registration": {
+      "transaction_hash": "0xd620cb3dfbcc7d50b8fbf663fa39afa738e3f6ba33ff961eb42f398cdf63b97a",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "audit": {
+      "transaction_hash": "0xea4ab71dc389e1fee4d6d45a4ef3814478d82a424cde383343b4b8b71f262e86",
+      "finality": "FINALIZED",
+      "consensus": "AGREE",
+      "execution": "FINISHED_WITH_RETURN"
+    },
+    "id": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331:BRADBURY-FILING-CUTOFF-20260812",
+    "fingerprint": "sha256:1f0a6a1ef59eab14b880ba88df55a0e47a9f075791486a3bbd2993989b92de68",
+    "verdict": "BEFORE_CUTOFF",
+    "event_time_unix": 1899990000,
+    "issue_mask": 0,
+    "exact_gate": true,
+    "altered_gate": false,
+    "read_variant": "LATEST_FINAL"
+  }
+}

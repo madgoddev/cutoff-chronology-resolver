@@ -1,0 +1,3 @@
+# Submission copy
+
+CutoffChronologyResolver is a reusable MIT-licensed GenLayer Intelligent Contract for deciding whether a bounded event occurred strictly before a frozen cutoff under an explicit timestamp rule. Validators independently extract the event/publication times and issue mask; the contract derives the verdict deterministically, treating equality as after. It is not a general oracle and does not authenticate sources. Local lint/typecheck, 50 direct tests, and four five-validator GLSim scenarios pass. Finalized StudioNet and Bradbury smokes reproduce `BEFORE_CUTOFF` with issue mask `0`; the compact fingerprint gate accepts the exact precommitment and rejects an altered one.
